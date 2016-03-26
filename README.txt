@@ -1,4 +1,7 @@
+
 Language Used-python.
+API Used- Google Geocoding.
+
 Using the Google Geocoding API with a Database and Visualizing data on Google Map.
 In this project, we are using the Google geocoding API to clean up some user-entered  geographic locations of 
 university names and then placing the data on a Google Map.
@@ -30,4 +33,5 @@ be familiar to you.
 Simply open where.html in a browser to see the locations.  You can hover over each map pin to find the location that the 
 gecoding API returned for the user-entered input.  If you cannot see any data when you open the where.html file, you might 
 want to check the JavaScript or developer console for your browser.
+
 
