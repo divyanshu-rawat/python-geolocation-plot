@@ -2,6 +2,9 @@
 Language Used-python.
 API Used- Google Geocoding.
 
+![alt tag](https://github.com/divyanshu-rawat/Retrieving-Processing-and-Visualizing-Data-with-Python./blob/master/Screenshot%20from%202016-07-13%2000:57:47.png)
+
+
 Using the Google Geocoding API with a Database and Visualizing data on Google Map.
 In this project, we are using the Google geocoding API to clean up some user-entered  geographic locations of 
 university names and then placing the data on a Google Map.
