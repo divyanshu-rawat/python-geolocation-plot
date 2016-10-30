@@ -16,6 +16,7 @@ cur = conn.cursor()                                         # cursor is basicall
 
 # calling a method inside of cur or cursor to execute a bit of sql
 # we are basically saying hey ! just create a table if it doesn't EXISTS Name the table Loccations and put colous in it address,geodata!!
+
 cur.execute('''CREATE TABLE IF NOT EXISTS Locations (address TEXT, geodata TEXT)''')
 
 fh = open("where.data")
@@ -24,7 +25,9 @@ count = 0
 for line in fh:
     if count > 200 : break  #we are basically saying that we will take 200 at a time!!!
     address = line.strip()
+
     cur.execute("SELECT geodata FROM Locations WHERE address= ?", (buffer(address), ))
+
     #buffer is a way to force address onto the address coloumn.
     #what it does is that it searches for geodata coloumn database looks down where address ? first time we don't have it because we
     #just made a table.
