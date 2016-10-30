@@ -12,13 +12,14 @@ scontext = None
 
 conn = sqlite3.connect('geodata.sqlite')                     # making an connection basically now going to make an connection to
                                                              # an sqlite3 database stored in a file named geodata.sqlite
-cur = conn.cursor()                                          # cursor is basically a sub-conection inside that.
+scur = conn.cursor()                                         # cursor is basically a sub-conection inside that.
 
 # calling a method inside of cur or cursor to execute a bit of sql
 # we are basically saying hey ! just create a table if it doesn't EXISTS Name the table Loccations and put colous in it address,geodata!!
 cur.execute('''CREATE TABLE IF NOT EXISTS Locations (address TEXT, geodata TEXT)''')
 
 fh = open("where.data")
+
 count = 0
 for line in fh:
     if count > 200 : break  #we are basically saying that we will take 200 at a time!!!
