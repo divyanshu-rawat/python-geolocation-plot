@@ -1,7 +1,5 @@
 > Build :innocent: using  Google Geocoding :joy: API for Visualizing data on Google Map. :mag:
 
-
-
 ### Description 
 
 * In this project, we are using the Google geocoding API to clean up some user-entered  geographic locations of 
