@@ -13,9 +13,9 @@
 
 * if you want to enter user defined data then please enter it in where.data file just add the name of the place,institution     you want to visualize on the map.
 
-* Run geodump.py to read the data from the database so you can visualize it on a map.
+* Run geoload.py to  Query Data written in where.data using Google API !.
 
-* Run geoload.py to  write records to where.js.
+* Run geodump.py to read the data from the database so you can visualize it on a map.
 
 * Open where.html to view the data in a browser.
 
