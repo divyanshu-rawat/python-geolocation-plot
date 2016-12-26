@@ -1,11 +1,11 @@
 > Build :innocent: using  Google Geocoding :joy: API for Visualizing data on Google Map. :mag:
 
-### Description 
+#### Description 
 
 * In this project, we are using the Google geocoding API to clean up some user-entered  geographic locations of 
   university names and then placing the data on a Google Map. (Where.data contains user-entered Data !).
  
-### Installation Instructions :grey_exclamation:
+#### Installation Instructions :grey_exclamation:
 
 * clone or download the repo. into any fresh temporary folder.
 
@@ -13,13 +13,21 @@
 
 * if you want to enter user defined data then please enter it in where.data file just add the name of the place,institution     you want to visualize on the map.
 
-* Run geoload.py to  Query Data written in where.data using Google API !.
+* to  Query Data written in where.data using Google API Run !
 
-* Run geodump.py to read the data from the database so you can visualize it on a map.
+```javascript
+    geoload.py
+```
+
+* to read the data from the database so you can visualize it on a map Run !
+
+```javascript
+    geodump.py 
+```
 
 * Open where.html to view the data in a browser.
 
-### How it Works !
+#### How it Works !
 
 * In the first phase we take our input data in the file (where.data) and read it one line at a time, and retreive the
   geocoded response and store it in a database (geodata.sqlite).Before we use the geocoding API, we simply check to see 
@@ -43,7 +51,7 @@
 
 
 
-### Examples !
+#### Examples !
 
 ![alt tag](https://github.com/divyanshu-rawat/Retrieving_Processing_and_Visualizing_Data_with_Python./blob/master/screenshot/map.png)
 
