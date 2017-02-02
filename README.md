@@ -1,9 +1,16 @@
-> Build :innocent: using  Google Geocoding :joy: API for Visualizing data on Google Map. :mag:
+
+### For Any Query Ping Me
+
+[![Join the chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/divyanshu001)
+
+##
 
 #### Description 
 
 * In this project, we are using the Google geocoding API to clean up some user-entered  geographic locations of 
   university names and then placing the data on a Google Map. (Where.data contains user-entered Data !).
+
+##
  
 #### Installation Instructions :grey_exclamation:
 
@@ -27,6 +34,8 @@
 
 * Open where.html to view the data in a browser.
 
+##
+
 #### How it Works !
 
 * In the first phase we take our input data in the file (where.data) and read it one line at a time, and retreive the
@@ -49,7 +58,21 @@
 
 * I have attached screenshots below depicting various features of  applicationIn the first phase we take our input data in the file (where.data) and read it one line at a time, and retreive the
 
+##
 
+### Contributing
+
+1. Create your **_branch_**: `git checkout -b my-new-feature`
+
+2. **_Commit_** your changes: `git commit -m 'Add some feature'`
+
+3. **_Push_** to the branch: `git push origin my-new-feature`
+
+4. Send a **Pull Request**
+
+5. **_Enjoy!_**
+
+##
 
 #### Examples !
 
